@@ -1,7 +1,7 @@
 # Личный проект «YetiCave»
 
 * Студент: [Никита Захватов](https://up.htmlacademy.ru/php/8/user/641513).
-* Наставник: [Евгений Шумейко] (https://htmlacademy.ru/profile/id910113).
+* Наставник: [Евгений Шумейко](https://htmlacademy.ru/profile/id910113).
 
 ---
 
