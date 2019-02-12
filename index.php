@@ -29,21 +29,20 @@ $user_name = 'Никита'; // укажите здесь ваше имя
         <nav class="user-menu">
 
         <!-- здесь должен быть PHP код для показа имени пользователя -->
-        <?php
-            if($is_auth == 1): ?>
-    <div class="user-menu__logged">
-            <p>$user_name</p>
-    </div>
-           <?php  else: ?>
-                <ul class="user-menu__list">
-    <li class="user-menu__item">
-            <a href="#">Регистрация</a>
-    </li>
-    <li class="user-menu__item">
-            <a href="#">Вход</a>
-    </li>
-  </ul>
-            <?php endif; ?>
+        <?php if ($is_auth == 1): ?>
+            <div class="user-menu__logged">
+                    <p>$user_name</p>
+            </div>
+        <?php  else: ?>
+            <ul class="user-menu__list">
+                <li class="user-menu__item">
+                     <a href="#">Регистрация</a>
+                </li>
+                <li class="user-menu__item">
+                    <a href="#">Вход</a>
+                </li>
+            </ul>
+        <?php endif; ?>
         
 
         </nav>
